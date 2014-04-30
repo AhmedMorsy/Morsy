@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="theTaskWS.ws-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="theTaskWS.domain-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.domain/theTaskWS.domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.service-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.service/theTaskWS.service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.dao-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.dao/theTaskWS.dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.dao-impl-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.dao-impl/theTaskWS.dao-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.settings-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.settings/theTaskWS.settings">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.ws-service-api-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.ws-service-api/theTaskWS.ws-service-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.dto-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.dto/theTaskWS.dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="theTaskWS.ws-service-impl-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/theTaskWS.ws-service-impl/theTaskWS.ws-service-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="theTaskWS.ws-web"/>
+        <property name="java-output-path" value="/theTaskWS.ws-web/target/classes"/>
+        <property name="component.exclusion.patterns" value="WEB-INF/lib/*"/>
+    </wb-module>
+</project-modules>
